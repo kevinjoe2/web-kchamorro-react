@@ -1,0 +1,178 @@
+/* STYLES STANDARD */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edeef6;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.input-icon {
+    font-family: FontAwesome;
+}
+
+/* INPUT */
+
+input[type=text],
+input[type=number],
+input[type=url],
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* STYLES POKEMON */
+
+/* TABLE */
+
+.tb-pokemon {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.tb-pokemon tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tb-pokemon th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+.tb-pokemon tr:hover {
+    background-color: #ddd;
+}
+
+.tb-pokemon td,
+.tb-pokemon th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.d-flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex-sa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.m-form {
+    margin: 0 80px;
+}
+
+/* COLORS */
+
+.c-purple {
+    color: rgb(102, 88, 246);
+}
+
+.c-while {
+    color: #FFFF;
+}
+
+.container {
+    padding: 20px 20px;
+}
+
+/* BUTTONS */
+
+.btn {
+    background-color: rgb(102, 88, 246);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px #999;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(102, 88, 246, 0.8);
+}
+
+.btn:active {
+    box-shadow: 0 2px #999;
+    transform: translateY(2px);
+}
+
+.btn-icon {
+    text-align: center;
+    margin: 0 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-icon:active {
+    box-shadow: 0 2px #999;
+    transform: translateY(2px);
+}
+
+/* MODAL */
+
+.modal-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.modal h1 {
+    margin: 0;
+}
+
+.modal p {
+    opacity: 0.7;
+    font-size: 14px;
+}
