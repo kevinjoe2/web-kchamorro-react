@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { getPokemons, savePokemon } from '../../store/slices/pokemon/thunks';
+import { savePokemon } from '../../store/slices/pokemon/thunks';
 import { FaSave,IoClose } from 'react-icons/all';
 
 export const PokemonCreate = ({handleClose}) => {
