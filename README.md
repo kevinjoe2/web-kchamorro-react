@@ -6,7 +6,7 @@
 ### Fecha: 29 Jun 2022
 ### Asunto: Prueba Frontend
 
-Se llevo acabo la implementación del proyecto con las siguientes especificaciones:
+Se llevo acabo la implementación del proyecto con las siguientes requisitos:
 
 1. node v16.15.1
 2. yarn v1.22.19
